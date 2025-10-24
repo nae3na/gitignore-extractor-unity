@@ -1,5 +1,7 @@
 # Gitignore Extractor
 
+[![Readme_JA](https://img.shields.io/badge/README-日本語版-blue)](./README_JA.md)
+
 A Unity Editor extension tool that parses `.gitignore` and copies the corresponding ignored files and folders (including `.meta`) into a specified folder.
 
 ---
