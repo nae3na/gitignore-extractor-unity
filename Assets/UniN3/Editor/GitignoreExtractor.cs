@@ -137,8 +137,8 @@ namespace UniN3.Editor {
                 EditorGUILayout.Space( );
 
                 EditorGUILayout.LabelField( "Preview of ignored paths (to be exported)", EditorStyles.boldLabel );
-                this.m_PreviewFoldout = EditorGUILayout.Foldout( this.m_PreviewFoldout, "Ignored paths", true );
-                if ( this.m_PreviewFoldout ) {
+                m_PreviewFoldout = EditorGUILayout.Foldout( m_PreviewFoldout, "Ignored paths", true );
+                if ( m_PreviewFoldout ) {
                     using ( new EditorGUILayout.VerticalScope( GUI.skin.box ) ) {
                         using ( var scrollPreview = new EditorGUILayout.ScrollViewScope( m_ScrollPreview, GUILayout.Height( 200 ) ) ) {
                             m_ScrollPreview = scrollPreview.scrollPosition;
